@@ -94,6 +94,75 @@ GET /api/v1/suppliers/
 
 ---
 
+## Create Supplier
+
+```
+POST /api/v1/suppliers/
+```
+
+### Request
+
+Content-Type
+
+```
+application/json
+```
+
+JSON body fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| name | string | Yes | Supplier name |
+| country_code | string | Yes | 2-letter ISO country code (e.g. "IN", "US") |
+| active | boolean | No | Whether supplier is active (defaults to true) |
+
+### Example Request
+
+```json
+{
+  "name": "Acme Inc",
+  "country_code": "US",
+  "active": true
+}
+```
+
+### Successful Response (201 Created)
+
+```json
+{
+  "id": 42,
+  "name": "Acme Inc",
+  "country_code": "US",
+  "active": true,
+  "created_at": "2026-07-22T01:03:18Z"
+}
+```
+
+### Validation Error (400 Bad Request)
+
+If required fields are missing or invalid, the API returns field-specific errors. Example:
+
+```json
+{
+  "name": ["This field is required."],
+  "country_code": ["This field is required."]
+}
+```
+
+### Server Error (500 Internal Server Error)
+
+On unexpected failures the API returns a high-level error message. Example:
+
+```json
+{
+  "detail": "Internal server error. <error message>"
+}
+```
+
+---
+
+---
+
 # Products
 
 ## Get Products
