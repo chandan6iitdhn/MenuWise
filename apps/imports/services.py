@@ -134,8 +134,10 @@ class ProductImportService:
             raise
 
     def _parse_csv(self, csv_file):
-        decoded_file = csv_file.read().decode("utf-8").splitlines()
-        return csv.DictReader(decoded_file)
+        content = csv_file.read()
+        if isinstance(content, bytes):
+            content = content.decode("utf-8")
+        return csv.DictReader(content.splitlines())
 
     def _validate_headers(self, headers):
         if headers != self.EXPECTED_HEADERS:
