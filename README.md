@@ -50,12 +50,12 @@ MenuWise/
 │   ├── urls.py
 │   └── wsgi.py
 │
-├── media/
-├── static/
 ├── manage.py
 ├── requirements.txt
 ├── pytest.ini
 ├── README.md
+├── API_DOCS.md
+├── .gitignore
 └── CONTRIBUTING.md
 ```
 
