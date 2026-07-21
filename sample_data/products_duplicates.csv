@@ -1,0 +1,4 @@
+supplier_id,supplier_sku,product_name,pack_size,unit,currency,price
+1,SKU001,Basmati Rice,5,kg,INR,450
+1,SKU001,Basmati Rice Premium,5,kg,INR,470
+1,SKU001,Basmati Rice Export,5,kg,INR,480

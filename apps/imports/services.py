@@ -1,3 +1,8 @@
+"""Services for importing supplier product CSVs.
+
+ProductImportService handles parsing, normalization, validation,
+deduplication and efficient bulk insertion of Product records.
+"""
 import csv
 from decimal import Decimal, InvalidOperation
 

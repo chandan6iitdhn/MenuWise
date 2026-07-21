@@ -1,0 +1,7 @@
+supplier_id,supplier_sku,product_name,pack_size,unit,currency,price
+1,SKU001,Basmati Rice,5,kg,INR,450.00
+1,SKU002,Wheat Flour,10,kg,INR,520.00
+1,SKU003,Sunflower Oil,1,l,INR,185.00
+2,SKU101,Olive Oil,1,l,USD,14.50
+2,SKU102,Pasta,500,g,USD,3.99
+2,SKU103,Tomato Sauce,250,ml,USD,2.75

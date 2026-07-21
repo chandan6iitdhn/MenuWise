@@ -1,3 +1,8 @@
+"""Shared enumerations for units and currencies.
+
+Defines canonical UnitChoices and CurrencyChoices used by Product and
+import normalization logic. Keep values stable to avoid data drift.
+"""
 from django.db import models
 
 

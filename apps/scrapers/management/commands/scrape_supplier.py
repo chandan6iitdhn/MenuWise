@@ -1,3 +1,8 @@
+"""Management command to scrape supplier product pages.
+
+Usage: manage.py scrape_supplier <url>
+Delegates scraping to SupplierScraperService and reports counts.
+"""
 from django.core.management.base import BaseCommand
 
 from apps.scrapers.services import SupplierScraperService

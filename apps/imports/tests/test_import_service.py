@@ -1,3 +1,8 @@
+"""Tests for the ProductImportService.
+
+Covers header validation, duplicate handling, default currency logic
+and basic negative/invalid row handling.
+"""
 import io
 
 import pytest

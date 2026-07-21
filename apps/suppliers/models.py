@@ -1,3 +1,13 @@
+"""Supplier model and metadata.
+
+Contains Supplier model fields used across the app:
+- name
+- country_code
+- active
+- created_at
+
+Used by Product and other modules to associate supplier data.
+"""
 from django.db import models
 
 

@@ -1,3 +1,7 @@
+"""Serializers for Product model.
+
+Includes supplier_name as a read-only field to avoid extra queries in clients.
+"""
 from rest_framework import serializers
 
 from .models import Product

@@ -1,0 +1,6 @@
+supplier_id,supplier_sku,product_name,pack_size,unit,currency,price
+1,SKU001,Basmati Rice,-5,kg,INR,450
+1,SKU002,Wheat Flour,10,kg,INR,-50
+1,SKU003,Salt,0,kg,INR,45
+2,SKU101,Olive Oil,1,gallon,USD,15
+999,SKU999,Unknown Product,2,kg,USD,100

@@ -1,3 +1,8 @@
+"""Simple scraping utilities to extract supplier product tables.
+
+SupplierScraperService provides a lightweight HTML table parser returning
+rows suitable for validation and import. Uses requests + BeautifulSoup.
+"""
 import requests
 from bs4 import BeautifulSoup
 

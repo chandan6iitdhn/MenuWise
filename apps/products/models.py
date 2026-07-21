@@ -1,3 +1,8 @@
+"""Product model and database constraints.
+
+Defines Product with pack size, unit, currency and price constraints.
+Enforces uniqueness of supplier SKU per supplier and non-negative pricing.
+"""
 from django.db import models
 
 from apps.common.choices import CurrencyChoices, UnitChoices

@@ -1,0 +1,10 @@
+supplier_id,supplier_sku,product_name,pack_size,unit,currency,price
+1,SKU001,Basmati Rice,5,kg,INR,450
+1,SKU002,Wheat Flour,10,kg,,520
+2,SKU101,Olive Oil,1,l,,15
+2,SKU102,Pasta,500,g,USD,-3
+2,SKU103,Tomato Sauce,250,ml,USD,2.75
+1,SKU001,Duplicate Rice,5,kg,INR,460
+999,SKU900,Unknown Supplier,1,kg,USD,20
+1,SKU104,Sugar,0,kg,INR,55
+1,SKU105,Tea Leaves,1,packet,INR,120

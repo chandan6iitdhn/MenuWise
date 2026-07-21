@@ -49,6 +49,12 @@ MenuWise/
 │   ├── settings/
 │   ├── urls.py
 │   └── wsgi.py
+|
+├── sample_data/
+│   ├── products_duplicates.csv
+│   ├── products_invalid.csv
+│   ├── products_valid.csv
+│   └── products_mixed.csv
 │
 ├── manage.py
 ├── requirements.txt

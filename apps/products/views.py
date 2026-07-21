@@ -1,3 +1,8 @@
+"""API views to list and retrieve Product records.
+
+Supports pagination, filtering by supplier/currency/active supplier and
+search by product_name. Querysets use select_related for efficiency.
+"""
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters
 from rest_framework.generics import ListAPIView, RetrieveAPIView

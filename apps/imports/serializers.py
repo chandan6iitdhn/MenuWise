@@ -1,3 +1,7 @@
+"""Serializers for import endpoints.
+
+Validates uploaded files and simple request-level checks.
+"""
 from rest_framework import serializers
 
 

@@ -1,3 +1,7 @@
+"""Serializers for Supplier model.
+
+Defines how Supplier objects are serialized over the API.
+"""
 from rest_framework import serializers
 
 from .models import Supplier

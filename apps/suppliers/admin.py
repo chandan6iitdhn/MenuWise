@@ -1,3 +1,8 @@
+"""Django admin configuration for Supplier model.
+
+Configures list display, search fields, filters and read-only fields
+for easier data management by admins.
+"""
 from django.contrib import admin
 
 from .models import Supplier

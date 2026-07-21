@@ -1,3 +1,8 @@
+"""Django admin configuration for Product model.
+
+Provides search, filters, list display and select_related optimization to
+make product management efficient in the admin UI.
+"""
 from django.contrib import admin
 
 from .models import Product

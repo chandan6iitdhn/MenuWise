@@ -1,3 +1,8 @@
+"""Filter definitions for Product API.
+
+Defines filters for supplier, currency and active supplier flag used by
+ProductListAPIView.
+"""
 import django_filters
 
 from .models import Product
